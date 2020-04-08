@@ -1,0 +1,36 @@
+body{
+    background-color:;
+}
+h1{
+    text-align:center;
+    font-size:30px;
+}
+.fas{
+    margin:0 10px;
+
+}
+p,ul{
+    /* display:block; */
+    width:200px;
+    margin:0 auto;
+}
+h2{
+    background-color:skyblue;
+    color:white;
+    height:60px;
+    width:240px;
+    margin:30px auto;
+    text-align:center;
+    line-height:60px;
+    border-radius:20px;
+    box-shadow:0 7px 7px black;
+    cursor:pointer;
+    user-select:none;
+    font-weight:bold;
+    font-size:20px;
+}
+h2:active{
+    box-shadow: none;
+    position:relative;
+    top:7px;  
+}
